@@ -1,0 +1,40 @@
+# CODEOWNERS file for cache-cache-858
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-apps @Armor-test/dept-release @Armor-test/dept-api
+
+# Directory ownership
+/migrations/ @Armor-test/grp-ui @Armor-test/team-logging @Armor-test/unit-test
+/db/ @Armor-test/squad-search @Armor-test/unit-design
+/pages/ @Armor-test/squad-cloud @Armor-test/squad-api @Armor-test/dept-data
+/config/ @Armor-test/squad-research @Armor-test/dept-automation
+/api/ @Armor-test/team-core @Armor-test/team-logging @Armor-test/dept-logging
+/lib/ @Armor-test/unit-test @Armor-test/team-frontend
+/assets/ @Armor-test/dept-security @Armor-test/grp-api @Armor-test/squad-ml
+/utils/ @Armor-test/dept-security @Armor-test/grp-api
+/build/ @Armor-test/squad-qa @Armor-test/grp-integration @Armor-test/dept-reliability
+/views/ @Armor-test/team-reporting @Armor-test/unit-cloud
+/docs/ @Armor-test/dept-data @Armor-test/dept-test
+/core/ @Armor-test/squad-cache @Armor-test/grp-storage @Armor-test/unit-design
+/ui/ @Armor-test/squad-mobile @Armor-test/grp-search
+/static/ @Armor-test/dept-reporting @Armor-test/unit-governance
+
+# File type ownership
+*.scss @Armor-test/squad-qa @Armor-test/squad-mobile
+*.json @Armor-test/squad-tooling @Armor-test/team-core
+*.xml @Armor-test/team-governance @Armor-test/dept-notifications @Armor-test/grp-storage
+*.rs @Armor-test/squad-apps @Armor-test/dept-logging @Armor-test/grp-api
+*.java @Armor-test/team-research @Armor-test/squad-cloud @Armor-test/squad-apps
+*.cs @Armor-test/unit-design @Armor-test/grp-search @Armor-test/squad-apps
+*.py @Armor-test/team-frontend @Armor-test/dept-logging @Armor-test/squad-cache
+*.ini @Armor-test/grp-api @Armor-test/team-governance @Armor-test/dept-test
+*.html @Armor-test/team-security @Armor-test/dept-reporting @Armor-test/grp-search
+*.sh @Armor-test/squad-qa @Armor-test/dept-automation
+*.graphql @Armor-test/unit-cloud @Armor-test/squad-product @Armor-test/squad-cache
+*.kt @Armor-test/dept-automation @Armor-test/squad-ux @Armor-test/grp-search
+*.tf @Armor-test/squad-ux @Armor-test/dept-ui @Armor-test/dept-data
+*.config @Armor-test/team-reporting @Armor-test/squad-tooling
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
